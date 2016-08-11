@@ -30,3 +30,23 @@ This is the string
 And a second line
 END_STR
 puts a
+
+
+
+a = 'first'
+p a.object_id
+
+a += '-second'
+p a.object_id
+
+a.concat('tird')
+p a.object_id
+
+a<<'forth'
+p a.object_id
+
+a << 'This is the string
+And a second line'
+p a.object_id
+
+puts a

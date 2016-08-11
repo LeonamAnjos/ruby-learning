@@ -1,11 +1,22 @@
 # p058mytrig.rb
 module Trig
   PI = 3.1416
+
+  module_function
   # class methods
-  def Trig.sin(x)
+  def sin(x)
     # ...
   end
-  def Trig.cos(x)
+  def cos(x)
     # ...
   end
+
+  def priv
+    var1
+  end
+
+  def var1
+    @var1 ||= 2
+  end
+
 end

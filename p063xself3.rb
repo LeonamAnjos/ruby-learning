@@ -9,3 +9,4 @@ obj.show
 print 'And inspecting obj from outside, '
 puts "to be sure it's the same object:"
 puts obj
+puts self
